@@ -1,4 +1,4 @@
-from cloudhost import Core
+import Core
 class Channel:
     def __init__(self,url,username,password):
         self.url=url
