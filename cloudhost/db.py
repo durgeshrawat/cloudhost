@@ -29,15 +29,4 @@ class Authenticate:
     def clear(self,filename):
         self.query.ClearFile(filename)
         #erase all data inside file
-
-if __name__=='__main__':
-    server=Authenticate('https://servertest.code.blog',
-                        'stellerx','stellerx.incorrect')
-    print(server)
-    f='testfile'
-    #print(server.createfile('testfile1','hii'))
-    #server.upload(f,'how are you')
-    #print(server.recieve(f))
-    #print(server.clear(f))
-    #print(server.showfiles())
     
